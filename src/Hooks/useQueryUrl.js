@@ -17,6 +17,6 @@ export const useQueryUrl = (queryDefault = {}) => {
       // '{" ' + value.replace("=", ":").replace("&", ",") + ' "}'
     );
   }
-  console.log(query);
+  // console.log(query);
   return [query, setQueryUrl];
 };
